@@ -10,7 +10,19 @@
 // alert(myName+ ' e o meu número é '+myLuckyNumber+' e o meu ano de nascimento é ' +MY_BIRTHDAY);*/
 
 
-const MESSAGE = "   TASTE THE RAINBOW  ";
-let whisper = MESSAGE.trim().toLowerCase();
+// const MESSAGE = "   TASTE THE RAINBOW  ";
+// let whisper = MESSAGE.trim().toLowerCase();
 
-console.log(whisper);
+// console.log(whisper);
+
+// const WORD = 'Skateboard';
+
+// let facialHair = WORD.slice(5,10);
+// facialHair.replace('o', 'e');
+// alert(facialHair);
+
+
+// let pi = Math.PI;
+
+let myName = prompt('Qual o seu nome?');
+console.log(myName);
