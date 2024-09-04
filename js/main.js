@@ -83,25 +83,39 @@
 
 // console.log(courses[0][2][0]);
 
-const airplaneSeats = [
-    ['Ruth', 'Anthony', 'Stevie'],
-    ['Amelia', 'Pedro', 'Maya'],
-    ['Xavier', 'Ananya', 'Luis'],
-    ['Luke', null, 'Deniz'],
-    ['Rin', 'Sakura', 'Francisco']
-];
-airplaneSeats[3][1] = 'Sara';
+// const airplaneSeats = [
+//     ['Ruth', 'Anthony', 'Stevie'],
+//     ['Amelia', 'Pedro', 'Maya'],
+//     ['Xavier', 'Ananya', 'Luis'],
+//     ['Luke', null, 'Deniz'],
+//     ['Rin', 'Sakura', 'Francisco']
+// ];
+// airplaneSeats[3][1] = 'Sara';
 
-console.log(airplaneSeats);
+// console.log(airplaneSeats);
 
 
-let JS = {
-    avaliação : 'Teste',
-    formador : 'Sara Monteiro',
-    sala : 2,
-    horas : 50,
-    ferias : true,
-}
+// let JS = {
+//     avaliação : ['teste', 'exame'],
+//     formador : 'Sara Monteiro',
+//     sala : 2,
+//     horas : 50,
+//     ferias : true,
+// }
 
-console.log('A avaliação é por ' + JS.avaliação);
-console.log('A formadora é ' + JS.formador);
+// console.log('A avaliação final é por ' + JS.avaliação[1]);
+// console.log('A formadora é ' + JS.formador);
+
+
+let product = {
+    name: 'cerveja',
+    price: 1.99,
+    inStock: true,
+    colors: ['vermelho', 'azul', 'verde']
+} 
+
+
+console.log(product.price);
+console.log(product.colors[2]);
+product.price = 2.55;
+console.log(product.price);
