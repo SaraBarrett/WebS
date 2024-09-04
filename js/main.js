@@ -24,5 +24,34 @@
 
 // let pi = Math.PI;
 
-let myName = prompt('Qual o seu nome?');
-console.log(myName);
+// let myName = prompt('Qual o seu nome?');
+// console.log(myName);
+
+// let dayOfWeek = prompt('Que dia é hoje?').toLowerCase();
+
+// switch(dayOfWeek){
+//     case "sexta":
+//     alert('yaayyyy,sexta');
+//     break;
+
+//     case "terça":
+//     alert('yaayyyy,terça');
+//     break;
+
+//     case "quarta":
+//     alert('yaayyyy,quarta');
+//     break;
+
+//     default:
+//     alert('não reconheço');
+//     break;
+// }
+
+
+let pw = prompt('qual é a pass?');
+
+if(pw.length < 5){
+    alert('ok');
+}else{
+    alert('a pass tem mais de 5 caracteres'); 
+}
