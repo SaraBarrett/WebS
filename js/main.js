@@ -48,10 +48,19 @@
 // }
 
 
-let pw = prompt('qual é a pass?');
+// let pw = prompt('qual é a pass?');
 
-if(pw.length < 5){
-    alert('ok');
-}else{
-    alert('a pass tem mais de 5 caracteres'); 
-}
+// if(pw.length < 5){
+//     alert('ok');
+// }else{
+//     alert('a pass tem mais de 5 caracteres'); 
+// }
+
+let series = ['Friends', 'Dark', 'Breaking Bad', 'House of Dragons', 'The Bear', 'Station 11'];
+
+series[1] = 'DragonBall';
+series.push('GOT');
+series.unshift('Halt and Catch Fire');
+
+console.log(series);
+
