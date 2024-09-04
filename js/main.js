@@ -107,6 +107,7 @@
 // console.log('A formadora é ' + JS.formador);
 
 
+//exercício Objectos
 let product = {
     name: 'cerveja',
     price: 1.99,
