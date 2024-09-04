@@ -56,11 +56,41 @@
 //     alert('a pass tem mais de 5 caracteres'); 
 // }
 
-let series = ['Friends', 'Dark', 'Breaking Bad', 'House of Dragons', 'The Bear', 'Station 11'];
+// let series = ['Friends', 'Dark', 'Breaking Bad', 'House of Dragons', 'The Bear', 'Station 11'];
 
-series[1] = 'DragonBall';
-series.push('GOT');
-series.unshift('Halt and Catch Fire');
+// series[1] = 'DragonBall';
+// series.push('GOT');
+// series.unshift('Halt and Catch Fire');
 
-console.log(series);
+// console.log(series);
+
+// let planets = ['Mercúrio','Venus','Terra', 'Mart', 'Jupiter','Saturno','Venus', 'Plutão'];
+
+// planets[3] = 'Marte';
+// planets.pop();
+// planets.unshift('YayNovo');
+// console.log(planets);
+
+
+// let courses = [
+//     ['Apis', 'Dom', ['JS', 'TS']],
+//     ['CSS', 'Html'],
+//     'Algoritmia',
+//     true,
+//     16,
+//     'Android'
+// ];
+
+// console.log(courses[0][2][0]);
+
+const airplaneSeats = [
+    ['Ruth', 'Anthony', 'Stevie'],
+    ['Amelia', 'Pedro', 'Maya'],
+    ['Xavier', 'Ananya', 'Luis'],
+    ['Luke', null, 'Deniz'],
+    ['Rin', 'Sakura', 'Francisco']
+];
+airplaneSeats[3][1] = 'Sara';
+
+console.log(airplaneSeats);
 
