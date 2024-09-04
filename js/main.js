@@ -94,3 +94,14 @@ airplaneSeats[3][1] = 'Sara';
 
 console.log(airplaneSeats);
 
+
+let JS = {
+    avaliação : 'Teste',
+    formador : 'Sara Monteiro',
+    sala : 2,
+    horas : 50,
+    ferias : true,
+}
+
+console.log('A avaliação é por ' + JS.avaliação);
+console.log('A formadora é ' + JS.formador);
