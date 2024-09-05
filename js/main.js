@@ -108,15 +108,29 @@
 
 
 //exercício Objectos
-let product = {
-    name: 'cerveja',
-    price: 1.99,
-    inStock: true,
-    colors: ['vermelho', 'azul', 'verde']
-} 
+// let product = {
+//     name: 'cerveja',
+//     price: 1.99,
+//     inStock: true,
+//     colors: ['vermelho', 'azul', 'verde']
+// } 
 
 
-console.log(product.price);
-console.log(product.colors[2]);
-product.price = 2.55;
-console.log(product.price);
+// console.log(product.price);
+// console.log(product.colors[2]);
+// product.price = 2.55;
+// console.log(product.price);
+
+// let movies = ['Mercúrio','Venus','Terra', 'Marte', 'Jupiter','Saturno','Venus', 'Plutão'];
+
+// for(let i=0; i<movies.length; i++){
+//     console.log('na posição '+i+' '+movies[i]);
+// }
+
+
+//exercício loop for maiuscula
+const people = ["Scooby", "Velma", "Daphne", "Shaggy", "Fred"];
+
+for(let i = 0; i<people.length; i++){
+    console.log(people[i].toUpperCase());
+}
