@@ -1,29 +1,46 @@
  //declare an array
- let desserts = ['bolo de chocolate', 'bolacha','semifrio', 'pudim'];
+//  let desserts = ['bolo de chocolate', 'bolacha','semifrio', 'pudim'];
+//  for(let item of desserts){
+//     console.log(item);
+// }
 
+// for(let item in desserts){
+//     console.log(item, desserts[item]);
+// }
 //  for(let i = 0; i<desserts.length; i++){
 //     console.log(desserts[i]);
 //  }
  
-for(let item of desserts){
-    console.log(item);
+
+
+function shoppingList(){
+    let shoppingList = [];
+    let item = '';
+
+    while(item != 'fim'){
+        item = prompt('qual o item?').toLowerCase();
+        shoppingList.push(item);
+    }
+    
+    shoppingList.pop();
+    for(let list of shoppingList){
+        console.log(list);
+    }
+    
 }
 
-for(let item in desserts){
-    console.log(item, desserts[item]);
+function rant(message){
+    for(let i = 1; i<4; i++){
+        console.log(i, message.toUpperCase());
+    }
 }
 
-let shoppingList = [];
-let item = '';
-
-while(item != 'fim'){
-    item = prompt('qual o item?').toLowerCase();
-    shoppingList.push(item);
+const Person = {
+    first: 'Sara',
+    last: 'Monteiro',
+    getName(){
+        return Person.first;
+    }
 }
 
-shoppingList.pop();
-for(let list of shoppingList){
-    console.log(list);
-}
-
-
+console.log(Person.getName());
